@@ -1,1 +1,1 @@
-# cloudera
+# Cloudera Deployment Profile
