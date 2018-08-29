@@ -15,7 +15,7 @@ service mysqld start
 
 yum install cloudera-manager-daemons cloudera-manager-server -y
 
-/usr/share/cmf/schema/scm_prepare_database.sh mysql -h localhost -uroot -pClouderaDatabase --scm-host %Database_TIER_IP% scm scm scm
+/usr/share/cmf/schema/scm_prepare_database.sh mysql -h %Database_TIER_IP% -uroot -pClouderaDatabase --scm-host %Manager_TIER_IP% scm scm scm
 
 service cloudera-scm-server restart
 
