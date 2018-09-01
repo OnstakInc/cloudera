@@ -16,3 +16,4 @@ yum install cloudera-manager-daemons cloudera-manager-server -y
 
 service cloudera-scm-server restart
 
+
