@@ -2,6 +2,8 @@
 
 yum update -y
 
+yum install wget -y
+
 wget https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/cloudera-manager.repo -P /etc/yum.repos.d
 
 yum update -y
